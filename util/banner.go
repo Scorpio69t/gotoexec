@@ -1,7 +1,5 @@
 package util
 
-
-
 func Banner() {
 	banner := `
 	  ________     ___________   ___________                     

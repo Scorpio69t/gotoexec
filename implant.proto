@@ -1,6 +1,7 @@
 syntax = "proto3";
 package grpcapi;
 option go_package = "./grpcapi";
+
 service Implant {
   rpc FetchCommand (Empty) returns (Command);
   rpc SendOutput (Command) returns (Empty);
